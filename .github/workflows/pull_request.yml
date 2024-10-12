@@ -3,7 +3,7 @@ on: [push, workflow_dispatch]
 jobs:
   create_pull_request:
     runs-on: ubuntu-latest
-    if: github.ref == 'refs/heads/development'
+    if: github.ref == 'refs/heads/dev'
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
