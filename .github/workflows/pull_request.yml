@@ -13,7 +13,7 @@ jobs:
           token: ${{ secrets.TOKEN }}
           commit-message: Update from `test` branch
           branch: test
-          base: development
+          base: dev
           title: Pull request from `development` branch
           body: |
             This is an automated pull request from the `test` branch to the `development` branch.
